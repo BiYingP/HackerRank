@@ -12,6 +12,7 @@ int: the length of the longest subarray that meets the criterion
 Sample input
 
 6
+
 4 6 5 3 3 1
 
 Sample output
