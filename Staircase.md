@@ -1,15 +1,13 @@
 Staircase
 
-Staircase detail
-
-This is a staircase of size n= 4
+This is staircase of size n = 4
 
    #
   ##
  ###
 ####
 
-Its base and height are both equal to n. It is drawn using # symbols ans spaces.
+Its base and height are both equal to n. It is drawn using # symbols and spaces.
 
 
     public static void staircase(int n) {
@@ -27,4 +25,4 @@ Its base and height are both equal to n. It is drawn using # symbols ans spaces.
   
     }
 
-    }  
+    }
