@@ -39,16 +39,4 @@ Java:
     return t2;
     }
 
-Python:
-
-
-
-def fibonacciModified(t1, t2, n):
-    # Write your code here
-    for i in range(2, n):
-        # temp = t2
-        # t2 = t1 + t2 * t2
-        # t1 = temp
-        t1, t2 = t2, t1+t2*t2
-    return t2
 
