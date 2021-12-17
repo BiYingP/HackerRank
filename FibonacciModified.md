@@ -11,12 +11,17 @@ Given three integers, t1, t2, and n, compute and print the nth term of a modifie
 Example
 
 t1 = 0
+
 t2 = 1
+
 n = 6
 
 t3 = 0 + 1**2 = 1
+
 t4 = 1 + 1**2 = 2
+
 t5 = 1 + 2**2 = 5
+
 t6 = 2 + 5**2 = 27
 
 return 27
@@ -36,6 +41,8 @@ Java:
 
 Python:
 
+
+
 def fibonacciModified(t1, t2, n):
     # Write your code here
     for i in range(2, n):
@@ -44,3 +51,4 @@ def fibonacciModified(t1, t2, n):
         # t1 = temp
         t1, t2 = t2, t1+t2*t2
     return t2
+
