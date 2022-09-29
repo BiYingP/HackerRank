@@ -21,13 +21,13 @@ After deleting the node at position 3, the list is 20 -> 6 -> 2 -> 7 -> 4 -> 15 
 
     public static SinglyLinkedListNode deleteNode(SinglyLinkedListNode llist, int position) {
     // Write your code here
+    if (position == 0) return llist.next;
+
     SinglyLinkedListNode current = llist;
     for (int i = 0; i < position-1; i++){
         current = current.next;
     }
     current.next = current.next.next;
-    return llist;
-    
-
+    return llist;    
     }
  
