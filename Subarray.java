@@ -1,3 +1,5 @@
+// Given an array of n intergers, find and print its number of negative subarrays on a new line.
+
 import java.util.*;
 
 public class Subarray{
