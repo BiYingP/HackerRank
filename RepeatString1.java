@@ -20,7 +20,9 @@ public class RepeatString1{
 	public static void main(String[] args){
 		Scanner s = new Scanner(System.in);
 
+		System.out.print("Enter a string to be repeated: ");
 		String str = s.nextLine();
+		System.out.print("Enter a number of time to repeat: ");
 		int num = s.nextInt();
 		System.out.println(repeatString(str, num));	
 	}
