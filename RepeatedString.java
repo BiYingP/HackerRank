@@ -4,7 +4,7 @@
 
 // Example:
 // Input: s = 'abcac', n = 10
-// Output: 7
+// Output: 4
 
 import java.util.*;
 public class RepeatedString{
