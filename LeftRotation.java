@@ -18,6 +18,16 @@ public class LeftRotation{
 		}
 		return res;
 	}
+
+	// rotate in-place solution
+	public static List<Integer> solution2(List<Integer> a, int d){
+		for (int i = 0; i < d; i++){
+			int tmp = a.remove(0);
+			a.add(tmp);
+		}
+		return a;
+	}
+
 	public static void main(String[] args){
 		
 		List<Integer> a = new ArrayList<>();
@@ -28,5 +38,6 @@ public class LeftRotation{
 		System.out.println(a);
 		System.out.println("After Rotation");
 		System.out.println(rotateLeft(a, d));
+		System.out.println(solution2(a, d));
 	}	
 }
